@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Signika+Negative:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* Navbar */
+.navbar-brand{
+    font-family: 'Kanit',sans-serif;
+    font-size: 30px;
+    background:transparent;
+}
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/kosmo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+.jumbotron img{
+    width: 400px;
+    height: 400px;
+}
+.jumbotron .display-4{
+    color: white;
+    font-family: 'League Gothic',sans-serif;
+    text-shadow: 0 0 20px white;
+}
+.jumbotron .incu{
+    margin-top: -20px;
+}
+.jumbotron .tulisanatas{
+    text-align: center;
+    max-width: 300px;
+    margin-top:0px;
+    margin: auto;
+    padding-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.jumbotron .garis2{
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin-top: -10px;
+}
+/* About Us */
+.halamanabout{
+    margin-bottom: 40px;
+}
+.halamanabout h1{
+    margin-top: -40px;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 60px;
+    color: white;
+    padding-bottom: 50px;
+    margin:auto;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 60px;
+}
+
+.halamanabout .garisabout{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    margin-top: -6px;
+}
+/* Card */
+.halamansatu{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.halamansatu .card{
+    background:transparent;
+}
+.halamansatu .card-body{
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    background:white;
+    transition: linear 1s;
+}
+.halamansatu .card-body:hover{
+    background-image: linear-gradient(to bottom,lightblue,white);   
+}
+.halamansatu .card-body h1{
+    margin-top: 20px;
+}
+.halamansatu{
+    background-image: url(img/komo.jpg);
+    height: 600px;
+}
+.halamansatu .whyus{
+    text-align: start;
+    color: white;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+.halamansatu .tjudul3{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin-top: 0px !important;
+}
+.halamansatu .tjudulk1{
+    position: relative;
+    font-size: 15px;
+}
+.halamansatu .kartu{
+    padding-top: 50px;
+    align-items: center;
+    height: 435px;
+    transition: linear 3s;
+}
+.halamansatu .kartu img{
+    background: white;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 15px black;
+    border-radius: 50%;
+    border: 10px solid white;
+    transition: 0.99s ease;
+}
+.halamansatu .kartu img:hover{
+    margin-bottom: 20px;
+    transform: scale(1.2);
+}
+.halamansatu .kartus{
+    padding-top: 50px;
+    height: 435px;
+    align-items: center;
+}
+.halamansatu .kartus img{
+    background: white;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 15px black;
+    border-radius: 50%;
+    border: 10px solid white;
+    transition: 1s;
+}
+.halamansatu .kartus img:hover{
+    margin-bottom: 20px;
+    transform: scale(1.2);
+}
+.halamansatu .whyus{
+    position: absolute;
+    margin-top: -40px;
+    background-color: black;
+    width: 500px;
+    height: 5px;
+    text-shadow: 0 0 5px white;
+}
+/* Carousel 1*/
+.halamancarousel{
+    background-color: white;
+}
+.carousel .judul{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 60px;
+    text-align: start;
+    position: absolute;
+    margin-top: -40px;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 60px;
+    color: white;
+    padding-bottom: 50px
+}
+.carousel{
+    padding-top: 40px;
+    background-color: none;
+    padding-bottom: 50px;
+}
+.carousel-item{
+    padding-top: 100px;
+    background: transparent;
+    height: 700px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.carousel-item .tambahan{
+    margin-top: -10px;
+    border-radius: 10px 10px;
+}
+.halamancarousel .carousel-item img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: cover;
+    height: 600px;
+    border-radius: 10px;
+}
+.garis{
+    height: 1px;
+    width: 100px;
+    text-align: center;
+    margin-top:-15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.halamancarousel .carousel-indicators{
+    border-radius:50px;
+    background: black;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.halamancarousel .karosel .carousel-inner h5{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+/* Publication */
+.news{
+    margin-top: 50px;
+}
+.news .single-box{
+    box-shadow: 0 0 3px black;
+    margin: 2px;
+    margin-top: -100px;
+    padding-bottom: 10px;
+}
+
+.news .single-box img{
+    width: 346px;
+    height: 200px;
+}
+.toto{
+    margin: auto;
+    width: 50px !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px;
+}
+.toto li{
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    
+}
+.newsc .carousel-inner .telolet{
+    height: 450px !important;
+}
+.single-box h2{
+    font-weight: bold;
+}
+.news .njudul{
+    margin-top: -40px;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 60px;
+    color: white;
+    padding-bottom: 50px;
+    margin:auto;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 60px;
+}
+/* Partner slider */
+
+/* Contact Us */
+.kontak{
+    margin-bottom: 50px;
+}
+.coment{
+    width: 1210px;
+}
+
+/* Footer */
+.foco1{
+    background: #0077F7;
+}
+.foco1 i{
+    margin: 10px 5px;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    transition:0.33s;
+} 
+.foco1 i:hover{
+    transform: rotateY(-25px);
+    color: rgba(63, 62, 62, 0.8);
+}
+.foco2 .judulf{
+    font-size: 15px;
+    text-decoration:bold;
+    margin-top: 10px;
+}
+.foco2 .judulfs{
+    font-family: 'Kanit',sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.foco2 .fsg{
+    background:white;
+    height: 1px;
+}
+.foco2 .col{
+    text-align: start;
+}
+.linkss li a{
+    text-decoration: none;
+    color: white;
+}
+.foco3{
+    padding-bottom: 5px !important;
+    padding-top: 12px !important;
+    background:black;
+}
+.foco3 h1{
+    font-size:15px;
+}
+/* Utility */
+.tombol{
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+.jumbotron .tombol2{
+    color: black;
+    box-shadow: 0 0 15px black;
+}
+.jumbotron .tombol2:hover{
+    color: white;
+    background: none;
+    
+}
+.jumbotron .tombol3{
+    color: white;
+    box-shadow: 0 0 15px black;
+    border: 1px solid #0077F7;
+}
+.jumbotron .tombol3:hover{
+    color: white;
+    background: #0077F7;
+    border: 1px solid #0077F7;
+    color: black;
+}
+/* Footer */
+
+/* Dekstop */
+@media (min-width: 994px) {
+    .halamansatu .kartu{
+        height: 450px;
+    }
+    .halamansatu .kartus{
+        height: 450px;
+    }
+}
+@media (min-width: 993px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link{
+        margin-right: 20px;
+        text-transform: uppercase;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -75px;
+
+    }
+    .jumbotron .tombol3{
+        text-transform: uppercase;
+
+    }
+    .jumbotron .tombol2{
+        text-transform: uppercase;
+    }
+    /* Why Us */
+    .halamansatu{
+        height: 600px;
+    }
+    /* Pulication */
+    .newsc .carousel-inner .telolet{
+        height: 500px !important;
+    }
+    /* Contact Us */
+    .coment{
+        width: 930px;
+    }
+
+}
+/* Tablet */
+@media (max-width: 992px) {
+    .jumbotron .display-4{
+        margin-top: 200px;
+    }
+    .jumbotron .incu{
+        margin-top: -20px;
+    }
+    /* Why Us */
+    .halamansatu{
+        height: 1250px;
+    }
+    .halamansatu .kartu{
+        height: 360px;
+    }
+    .halamansatu .kartus{
+        height: 360px;
+    }
+    /* Pulication */
+    .single-box img{
+    }
+    .single-box .img-text h2{
+        font-size: 20px !important;
+    }
+    .newsc .carousel-inner .telolet{
+        height: 525px !important;
+    }
+    /* Contact Us */
+    .coment{
+        width: 690px;
+    }
+}
+
+/* Phone */
+@media (max-width: 768px) {
+    /* Jumbotron */
+
+    /* Why Us */
+    .halamansatu{
+        height: 1250px;
+    }
+    .halamansatu .kartu{
+        height: 360px;
+    }
+    .halamansatu .kartus{
+        height: 360px;
+    }
+    .halamansatu .whyus{
+        width:458px;
+    }
+    /* Caorousel*/
+    .carousel .judul{
+        width: 473px;
+    }
+    .carousel-item{
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    .carousel-item img{
+        height: 400px;
+    }
+    /* footer */
+    .foco2 .container{
+        text-align: center;
+    }
+    /* Pulication */
+    .single-box img{
+        width: 506px!important;
+    }
+    .news{
+        height: 600px;
+    }
+    .newsc{
+        height: 500px;
+    }
+    .toto li{
+        width: 10px;
+        height: 10px;
+        border-radius:100%;
+    }
+    .secondd .img-area{
+        margin-top: -150px;
+    }
+    .toto{
+        margin: auto;
+        width: 50px !important;
+        border-radius: 20px !important;
+    }
+    /* Contact Us */
+    .coment{
+        width: 510px !important;
+    }
+}
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+  .turu{
+      height:800px
+  }
+  @media (max-width: 576px) {
+      /* Contact Us */
+    .coment{
+        width: 395px !important;
+    }
+  }
+  
